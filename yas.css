@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #ccc;
+}
+
+header {
+    background-color: lightgreen;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section {
+    background-color: lawngreen;
+    padding: 20px;
+    margin: 20px;
+    width: 30%;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:hover {
+    color: darkolivegreen;
+}
